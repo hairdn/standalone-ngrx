@@ -8,4 +8,9 @@ export const appRoutes: Route[] = [
     loadChildren: () =>
       import('@musicians/musicians.routes').then((m) => m.musiciansRoutes),
   },
+  {
+    path: 'musicians_clone',
+    loadChildren: () =>
+      import('@musicians_clone/musicians.routes').then((m) => m.musiciansRoutes),
+  },
 ];

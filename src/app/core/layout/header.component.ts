@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
     <header>
       <a routerLink="/" style="margin-right: 1rem">Home</a>
       <a routerLink="/musicians">Musicians</a>
+      <a routerLink="/musicians_clone">Musicians clone</a>
     </header>
   `,
   standalone: true,

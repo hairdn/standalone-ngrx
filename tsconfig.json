@@ -16,14 +16,27 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2020",
+    "target": "ES2022",
     "module": "es2020",
-    "lib": ["es2020", "dom"],
+    "lib": [
+      "es2020",
+      "dom"
+    ],
     "paths": {
-      "@core/*": ["src/app/core/*"],
-      "@home/*": ["src/app/home/*"],
-      "@musicians/*": ["src/app/musicians/*"]
-    }
+      "@core/*": [
+        "src/app/core/*"
+      ],
+      "@home/*": [
+        "src/app/home/*"
+      ],
+      "@musicians/*": [
+        "src/app/musicians/*"
+      ],
+      "@musicians_clone/*": [
+        "src/app/musicians_clone/*"
+      ]
+    },
+    "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
